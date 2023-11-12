@@ -42,6 +42,7 @@ void searchActor(std::string actor, std::string fileName)
     nlohmann::json moviesJson;
 
     file >> moviesJson;
+    file.close();
 
     bool isFind = false;
 
